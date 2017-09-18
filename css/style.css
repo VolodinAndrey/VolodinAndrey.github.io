@@ -1,0 +1,400 @@
+/* ==========================================================================
+=General Styles
+========================================================================== */
+
+body {
+    background-color: #111;
+    color: #aaa;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 28px;
+    margin: 0;
+}
+
+.page-sections {
+    position: relative;
+}
+
+.top-padding {
+    padding-top: 5%;
+}
+
+a {
+    color: #fff;
+}
+
+a:hover,
+a:focus {
+    color: #46cdcf;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.current {
+    background-color: #46cdcf;
+}
+
+
+/* ==========================================================================
+=Typography
+========================================================================== */
+
+h1 {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: 100;
+    line-height: 49px;
+}
+
+h2 {
+    color: #fff;
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+h3 {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 40px;
+}
+
+p {
+    color: #aaa;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+
+/* ==========================================================================
+=SEC1 (Header)
+========================================================================== */
+
+#sec1 {
+    background: url(https://himigatliwanag.files.wordpress.com/2016/01/bg.jpg) top center no-repeat scroll #111;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    min-height: inherit;
+    padding: 40px 10px 60px 10px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.header-info {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin-left: 0px;
+    margin-bottom: 11%;
+}
+
+#header-nav {
+    margin-top: 50px;
+}
+
+#header-nav a {
+    display: inline-block;
+    min-width: 100px;
+}
+
+#header-nav a:hover,
+#header-nav a:active,
+#header-nav a:focus {
+    text-decoration: none;
+}
+
+#header-nav a:hover .bb-animate {
+    background: #46cdcf;
+    width: 100%;
+}
+
+#header-nav img {
+    margin-bottom: 10px;
+    opacity: .7;
+}
+
+.bb-animate {
+    display: block;
+    height: 1px;
+    width: 0;
+    background: rgba(255, 255, 255, 0);
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+#fix-menu {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    right: 50px;
+    top: 50%;
+    width: 26px;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#fix-menu a {
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+#fix-menu a:hover,
+#fix-menu .active {
+    background-color: #46cdcf;
+}
+
+.menu-links {
+    display: inline-block;
+    font-size: 15px;
+    margin: 13px 0;
+    min-width: 16px;
+    padding: 10px 20px;
+}
+
+.menu-links:hover,
+.menu-links:active,
+.menu-links:focus {
+    text-decoration: none;
+}
+
+.menu-links img {
+    min-width: 16px;
+}
+
+.transition {
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+
+/* ==========================================================================
+=ABOUT SECTION
+========================================================================== */
+
+.scoopy {
+    background: url(https://himigatliwanag.files.wordpress.com/2016/01/scoopy.jpg) bottom left;
+    height: 495px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.skills {
+    margin-bottom: 10px;
+}
+
+.skills img {
+    margin: 10px;
+}
+
+.skills img:first-child {
+    margin-left: 0;
+}
+
+.description {
+    padding: 12px 50px;
+    border: 1px solid #4d4d4d;
+}
+
+
+/* ==========================================================================
+=PORTFOLIO SECTION
+========================================================================== */
+
+#sec3 {
+    background: url(https://himigatliwanag.files.wordpress.com/2016/01/milky-way.jpg) top center fixed no-repeat;
+    /*background-size: cover;*/
+}
+
+.slick-slide img {
+    margin: 0 auto;
+}
+
+.slick-slide {
+    outline: none;
+}
+
+.slick-dots li button:before {
+    color: #aaa;
+}
+
+.slick-dots li.slick-active button:before {
+    color: white;
+}
+
+.slick-custom-nav {
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.slick-slide a:focus {
+    cursor: move;
+}
+
+.prev-slide {
+    float: left;
+}
+
+.next-slide {
+    float: right;
+}
+
+
+/* ==========================================================================
+=CONTACT SECTION
+========================================================================== */
+
+#sec4 {
+    width: 100%;
+}
+
+.contact-info {
+    background: url(https://himigatliwanag.files.wordpress.com/2016/01/ocean.jpg) repeat;
+    padding: 80px 50px;
+}
+
+.contact-info a:hover {
+    text-decoration: none;
+}
+
+.email-link {
+    margin-top: 50px;
+}
+
+
+/* ==========================================================================
+=FOOTER SECTION
+========================================================================== */
+
+footer {
+    position: absolute;
+    bottom: 10px;
+    left: 15px;
+    width: 100%;
+}
+
+@media only screen and ( max-width: 991px) {
+    .slick-custom-nav {
+        margin-top: 0;
+        cursor: pointer;
+    }
+}
+
+@media only screen and ( max-width: 930px) {
+    #fix-menu {
+        position: fixed;
+        bottom: -1px;
+        right: auto;
+        top: auto;
+        width: 100%;
+        height: 45px;
+        transform: none;
+        text-align: center;
+        background-color: #3F3F3F;
+    }
+    #fix-menu a {
+        display: inline-block;
+        height: 45px;
+        width: 18%;
+        margin: 0;
+        border: none;
+    }
+}
+
+@media only screen and ( max-width: 1200px) {
+    .scoopy {
+        height: 544px;
+    }
+    .skills img {
+        margin: 10px 5px;
+        height: 29px;
+    }
+}
+
+@media only screen and ( max-width: 320px) {
+    h1 {
+        line-height: 41px;
+    }
+}
+
+@media only screen and ( max-width: 490px) {
+    .header-info h1 {
+        font-size: 30px;
+    }
+}
+
+@media only screen and ( max-width: 414px) {
+    .scoopy {
+        height: 300px;
+    }
+    .description {
+        padding: 12px 20px;
+    }
+}
+
+@media only screen and ( max-width: 409px) {
+    .header-info br {
+        display: none;
+    }
+}
+
+@media only screen and ( max-width: 365px) {
+    .email-link h3 {
+        font-size: 18px;
+    }
+}
+
+
+/* HEIGHT */
+
+@media only screen and ( max-height: 414px) {
+    .header-info {
+        margin-bottom: 4%;
+    }
+    #header-nav {
+        margin-top: 40px;
+    }
+    .scoopy {
+        height: 200px;
+    }
+}
+
+@media only screen and ( max-height: 320px) {
+    .header-info {
+        margin-bottom: 3%;
+    }
+    .header-info h1 {
+        font-size: 20px;
+        line-height: 29px;
+    }
+    #header-nav {
+        margin-top: 30px;
+    }
+    .scoopy {
+        height: 160px;
+    }
+}
